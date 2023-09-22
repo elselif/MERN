@@ -21,7 +21,7 @@ mongoose.connect(CONNECTION_URL , {
     useNewUrlParser:true,
     useUnifiedTopology:true,
 }).then(()=> app.listen(PORT,()=> 
-    console.log('connectipn is es and runng port : ${PORT}')
+    console.log('connectipn is es and runng port : `${PORT}`')
 )).catch((err) => console.log(err.message));
 
 // mongoose.set('useFindAndModify',false);

@@ -37,7 +37,7 @@ To start the client application:
 To start the server application:
 
 ```bash
-    cd server
+    cd backend
     npm install
     npm start
 ```
